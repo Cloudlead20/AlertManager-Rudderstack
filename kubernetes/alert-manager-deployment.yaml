@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alert-manager
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alert-manager
+  template:
+    metadata:
+      labels:
+        app: alert-manager
+    spec:
+      containers:
+      - name: alert-manager
+        image: your-dockerhub-username/alert-manager:latest
+        ports:
+        - containerPort: 5000
