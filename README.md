@@ -30,7 +30,7 @@ The solution is designed to be extensible, allowing developers to add new alert 
 
 1. **Open Repository in GitHub Codespaces**
 
-   - Navigate to [your repository](https://organic-eureka-r44pj6wjqpwpcxjgq.github.dev/).
+   - Navigate to [alert-manager-system](https://organic-eureka-r44pj6wjqpwpcxjgq.github.dev/).
    - Click on the green **Code** button and select **Open with Codespaces**.
    - Create a new Codespace or select an existing one.
 
