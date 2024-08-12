@@ -204,10 +204,6 @@ The solution is designed to be extensible, allowing developers to add new alert 
    - Update `server.py` with new enrichment and action logic.
    - Modify webhook handling to accommodate new alert types.
 
-2. **Documentation**
-
-   - Update this README to include details about new alert types and actions.
-   - Ensure implementation of new features is documented clearly.
 
 ## Observability
 
